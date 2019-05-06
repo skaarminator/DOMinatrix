@@ -1,0 +1,40 @@
+body{
+  background: #b10dc9;
+  font-family: Arial;
+  padding: 40px;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+.search-container{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#search-bar{
+  height: 40px;
+  width: 80%;
+  font-size: 20px;
+}
+
+.adventures-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 40px;
+
+}
+
+.adventures{
+  width: 120px;
+  padding:10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+}
